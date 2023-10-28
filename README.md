@@ -1,2 +1,2 @@
-# Exercic-o-Tamagotchi
+# Exercicio-Tamagotchi
 Atividades CDD (aulas de POO)
