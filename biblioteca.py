@@ -7,7 +7,6 @@ class Pessoa:
         self.comendo = False
         self.dormindo = False
         self.falando = False
-        self.action = " "
 
 
     #método para mostrar se a ação é repetida e a mensagem certa
