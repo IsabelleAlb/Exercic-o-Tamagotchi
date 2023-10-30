@@ -9,7 +9,7 @@ class Pessoa:
         self.falando = False
 
 
-    #método para mostrar se a ação é repetida e a mensagem certa
+    #método para mostrar se o tamagotchi está ocupado e a mensagem certa a ser mostrada
     def ocupado(self, igual, acao):
         string = ""
         if self.comendo:
