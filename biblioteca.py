@@ -12,13 +12,13 @@ class Pessoa:
     #método para mostrar se o tamagotchi está ocupado e a mensagem certa a ser mostrada
     def ocupado(self, igual, acao):
         string = ""
-        if self.comendo:
+        if self.comendo == True:
             string = "já está comendo"
-        elif self.falando:
+        elif self.falando == True:
             string = "já está falando"
         else:
             string = "já está dormindo"
-        if igual:
+        if igual == True:
             print(f"{self.nome}", string)
         else:
             print(f"{self.nome} nao pode {acao} porque", string)
