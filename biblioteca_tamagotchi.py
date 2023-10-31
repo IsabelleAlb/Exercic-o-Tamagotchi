@@ -7,6 +7,7 @@ class Pessoa:
         self.comendo = False
         self.dormindo = False
         self.falando = False
+        self.action = " "
 
 
     #método para mostrar se o tamagotchi está ocupado e a mensagem certa a ser mostrada
